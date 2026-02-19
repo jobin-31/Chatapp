@@ -1,0 +1,14 @@
+.typing-indicator {
+  font-size: 0.85rem;
+  color: #6c757d; /* muted gray */
+  margin-left: 4px;
+  animation: fadeInOut 1.5s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
