@@ -6,3 +6,7 @@ channels_redis
 dj-database-url
 python-dotenv
 psycopg2-binary
+whitenoise
+gunicorn
+django-cors-headers
+uvicorn
